@@ -21,12 +21,12 @@ theme:
 
 extra:
   authors:
-    - nom: Mª Felicidad Mafé Durà
-      rol: Autora principal
     - nom: Olga García Sayalero
-      rol: Coautora dels materials originals
+      rol: Autora dels materials originals
     - nom: Laura Lamata Meana
-      rol: Coautora dels materials originals
+      rol: Autora dels materials originals
+    - nom: Mª Felicidad Mafé Durà
+      rol: Adaptadora de l’obra
     - nom: JB Talens
       rol: Editor i adaptador web
   generator: false
@@ -36,7 +36,7 @@ extra:
 
 copyright:
   <div style="text-align:center">
-    © 2025 Mafé Durà, García Sayalero, Lamata Meana — Adaptació per JB Talens.  
+    © 2025 García Sayalero, Lamata Meana — Adaptació Mafé Durà — Publicació JB Talens.  
     Llicència <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" target="_blank">CC BY-NC-SA 4.0</a>
   </div>
 

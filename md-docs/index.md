@@ -2,11 +2,10 @@
 
 Aquest lloc conté una adaptació del temari de **Grec I** per a 1r de Batxillerat, basat en materials elaborats per:
 
-- **Mª Felicidad Mafé Durà**
 - **Olga García Sayalero**
 - **Laura Lamata Meana**
 
-📚 Aquesta és una obra derivada adaptada i publicada per **JB Talens**, amb finalitats educatives, sota la següent llicència:
+📚 Aquesta és una **obra derivada adaptada per Mª Felicidad Mafé Durà** i **publicada per JB Talens**, amb finalitats educatives, sota la següent llicència:
 
 ![Llicència CC BY-NC-SA](../assets/img/llicencia-cc.png)
 
