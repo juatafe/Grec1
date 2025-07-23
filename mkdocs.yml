@@ -1,0 +1,55 @@
+site_name: Temari de Grec – 1r Batxillerat
+site_description: Apunts i temari adaptats a partir de Mª Felicidad Mafé Durà
+site_author: Mª Felicidad Mafé Durà, Olga García Sayalero, Laura Lamata Meana (autores), JB Talens (editor)
+site_url: https://juatafe.github.io/Grec1/
+use_directory_urls: false
+docs_dir: 'md-docs'
+site_dir: 'docs'
+
+theme:
+  name: material
+  language: ca
+  favicon: assets/img/favicon.ico
+  logo: assets/img/logo.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: light blue
+    - scheme: slate
+      primary: indigo
+      accent: light blue
+
+extra:
+  authors:
+    - nom: Mª Felicidad Mafé Durà
+      rol: Autora principal
+    - nom: Olga García Sayalero
+      rol: Coautora dels materials originals
+    - nom: Laura Lamata Meana
+      rol: Coautora dels materials originals
+    - nom: JB Talens
+      rol: Editor i adaptador web
+  generator: false
+  consent:
+    title: Consentiment de cookies
+    description: Utilitzem cookies per millorar l'experiència de navegació.
+
+copyright:
+  <div style="text-align:center">
+    © 2025 Mafé Durà, García Sayalero, Lamata Meana — Adaptació per JB Talens.  
+    Llicència <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" target="_blank">CC BY-NC-SA 4.0</a>
+  </div>
+
+nav:
+  - Inici: index.md
+  - Tema 1: tema1.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
