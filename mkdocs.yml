@@ -42,7 +42,18 @@ copyright:
 
 nav:
   - Inici: index.md
-  - Tema 1: tema1.md
+  - "Tema 1: L’alfabet grec":
+      - Introducció: tema1/index.md
+      - De l’alfabet fenici al grec: tema1/del-fenici-al-grec.md
+      - Taula comparativa i tipus d’escriptura: tema1/taula-comparativa.md
+      - Del grec al llatí i altres alfabets: tema1/alfabet-llati-i-altres.md
+      - Un poc de mitologia: tema1/mitologia-europa.md
+      - Lletres i sons: tema1/taula-lletres.md
+      - Pronunciació: tema1/pronunciacio.md
+      - Com s’escriu?: tema1/com-sescriu.md
+      - Activitats: tema1/activitats.md
+
+
 
 markdown_extensions:
   - admonition
@@ -53,3 +64,15 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # Extensió per Mermaid
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
