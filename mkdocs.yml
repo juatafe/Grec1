@@ -10,7 +10,7 @@ theme:
   name: material
   language: ca
   favicon: assets/img/favicon.ico
-  logo: assets/img/logo.png
+  logo: assets/img/llopislogo.svg
   palette:
     - scheme: default
       primary: indigo
@@ -18,8 +18,17 @@ theme:
     - scheme: slate
       primary: indigo
       accent: light blue
+  features:
+    - navigation.footer  # ⬅️ Aquesta és la clau!
 
 extra:
+  logo: |
+    <div class="md-logo-container">
+      <a href="https://portal.edu.gva.es/iesllopis" target="_blank" class="logo-llopis"></a>
+      <a href="https://ceice.gva.es/va/web/educacion" target="_blank" class="logo-gvanext"></a>
+    </div>
+
+
   authors:
     - nom: Olga García Sayalero
       rol: Autora dels materials originals
@@ -34,11 +43,21 @@ extra:
     title: Consentiment de cookies
     description: Utilitzem cookies per millorar l'experiència de navegació.
 
-copyright:
-  <div style="text-align:center">
-    © 2025 García Sayalero, Lamata Meana — Adaptació Mafé Durà — Publicació JB Talens.  
-    Llicència <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" target="_blank">CC BY-NC-SA 4.0</a>
+copyright: |
+  <div class="custom-footer">
+    <div class="footer-logo footer-left"></div>
+    <span class="footer-text">
+      © 2025 García Sayalero, Lamata Meana — Adaptació Mafé Durà — Publicació JB Talens.<br>
+      Llicència <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" target="_blank">CC BY-NC-SA 4.0</a>
+    </span>
+    <div class="footer-logo footer-right"></div>
   </div>
+
+
+extra_css:
+  - assets/stylesheets/extracsspdf.css
+  - assets/stylesheets/customs.css
+  - assets/stylesheets/extra.css
 
 nav:
   - Inici: index.md

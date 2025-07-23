@@ -31,11 +31,11 @@
     position: relative; /* Evita que es sobreposen */
 }
 
-/* 📌 Afig el PRIMER logo (logoJust.png) com a enllaç independent */
+/* 📌 Afig el PRIMER logo (llopislogo.svg) com a enllaç independent */
 .md-header__button.md-logo::before {
     content: "";
     display: inline-block;
-    background-image: url("../../assets/img/logos/logoJust.png"); /* Ruta del primer logo */
+    background-image: url("../../assets/img/llopislogo.svg"); /* Ruta nova del logo */
     background-size: contain;
     background-repeat: no-repeat;
     width: 7vw;  
@@ -43,14 +43,16 @@
     margin-right: 0.5vw;
 }
 
-/* 📌 Fa que el PRIMER logo siga clicable */
-.md-header__button.md-logo a.logo-just {
+
+/* 📌 Fa que el PRIMER logo (llopis) siga clicable */
+.md-header__button.md-logo a.logo-llopis {
     position: absolute;
     width: 7vw;
     height: 8vh;
     left: 0;
     z-index: 10;
 }
+
 
 /* 📌 Afig el TERCER logo (GvaNext.png) com a enllaç independent */
 .md-header__button.md-logo::after {
@@ -79,7 +81,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.7)),url("../../assets/img/fondo.png"); /* Ruta de la imatge */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.7)), url("/assets/img/fondo.png");
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
