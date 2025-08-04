@@ -6,9 +6,9 @@ En grec, a diferència del llatí, l’accent és **lliure** i pot caure en qual
 
 | **Nom**            | **Símbol** | **Característiques**                                                                                                                                  | **Exemples**                             |
 |--------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| **Agut**           | ´ (´)      | Pot anar en les tres últimes síl·labes, però només a l’antepenúltima si la darrera és breu.                                                          | ἄνθρωπος, ἡμέρα, ἀγαθός                   |
-| **Greu**           | ` (`)      | Només pot anar a la darrera síl·laba si la paraula següent està accentuada. Només es fa servir en frase, no en paraula sola.                       | ἀγαθὸς καὶ καλὸς / Σοφὸς λόγος            |
-| **Circumflex**     | ~ ( ͂ )    | Pot anar en les dues últimes síl·labes, **només sobre vocals llargues o diftongs**.                                                                  | τῆς, δῆμος                                |
+| **Agut**           | <span style="font-size: 2rem;">´</span>      | Pot anar en les tres últimes síl·labes, però només a l’antepenúltima si la darrera és breu.                                                          | ἄνθρωπος, ἡμέρα, ἀγαθός                   |
+| **Greu**           | <span style="font-size: 2rem;">`</span>      | Només pot anar a la darrera síl·laba si la paraula següent està accentuada. Només es fa servir en frase, no en paraula sola.                       | ἀγαθὸς καὶ καλὸς / Σοφὸς λόγος            |
+| **Circumflex**     | <span style="font-size: 2rem;">~ </span>    | Pot anar en les dues últimes síl·labes, **només sobre vocals llargues o diftongs**.                                                                  | τῆς, δῆμος                                |
 
 ## Observacions
 
@@ -23,8 +23,8 @@ En grec, a diferència del llatí, l’accent és **lliure** i pot caure en qual
    - Si és **circumflex**, queda damunt.
    - Si comença per **majúscula**, es col·loca igual però a l’esquerra de la lletra.
 
-```text
-  ἄ   ἅ   ἓ   ἕ   ἣ   ἥ
-```
+<div style="text-align:center; font-size: 1.8rem; padding: 0.5rem; background-color: #f5f5f5; border-radius: 0.3rem;">
+ἄ ἂ ἆ  ἅ ἃ ἇ
+</div>
 
 *Ex.*: αἷμα, ἔχω, ἵππος

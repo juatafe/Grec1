@@ -59,8 +59,8 @@ Pot ser:
 
 | Tipus  | Símbol | Característiques                                                                                 | Exemple                        |
 |--------|--------|---------------------------------------------------------------------------------------------------|--------------------------------|
-| **Suau**  | ᾿      | Semicercle obert cap a l'esquerra. **No es pronuncia** (com la nostra h muda).                   | P. ex.: ἀνήρ → /anér/          |
-| **Àsper** | ῾      | Semicercle obert cap a la dreta. **Es pronuncia com una h aspirada** (com en anglès *house*).    | P. ex.: ἵππος → /híppos/       |
+| **Suau**  | <span style="font-size: 2rem;">᾿</span>      | Semicercle obert cap a l'esquerra. **No es pronuncia** (com la nostra h muda).                   | P. ex.: ἀνήρ → /anér/          |
+| **Àsper** | <span style="font-size: 2rem;">῾</span>       | Semicercle obert cap a la dreta. **Es pronuncia com una h aspirada** (com en anglès *house*).    | P. ex.: ἵππος → /híppos/       |
 |        |        | També s’aplica a la **ρ inicial**, amb esperit **àsper**.                                         | P. ex.: ῥίς → /rís/            |
 
 ---
